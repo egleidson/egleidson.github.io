@@ -194,7 +194,14 @@
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
-
+  /**
+   * Initiate portfolio details lightbox 
+   */
+   const portfolioDetailsLightbox = GLightbox({
+    selector: '.portfolio-details-lightbox',
+    width: '70%',
+    height: '70vh'
+  });
   /**
    * Portfolio details slider
    */
